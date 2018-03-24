@@ -423,7 +423,7 @@ class StaticAppBar extends Component {
                     <AppBar
                         className="drawerAppBar"
                         title={<div><a href={this.state.baseUrl} style={{ float: 'left', marginTop: '-10px' }}>
-                            <img src={susiWhite} alt="susi-logo" className="siteTitle" /></a><TopMenu /></div>}
+                            </a><TopMenu /></div>}
                         style={{
                             backgroundColor: '#4285f4', height: '46px',
                             boxShadow: 'none'
